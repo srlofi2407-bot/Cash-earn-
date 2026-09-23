@@ -1,0 +1,339 @@
+{
+  "users": [
+    {
+      "id": "usr_demo_01",
+      "username": "rahman_bd",
+      "passwordHash": "b24226ab8981b1218ca87943ba2dd645b259764da13480707182dc2ff91568a4212c0a66788f5a23f4732830664dc72a6a97950cbe421f6f06efc1b1c3fcb76d",
+      "salt": "77596e56883a9bce4dfbf0ca0d2b136b",
+      "email": "rahman@example.com",
+      "phone": "01712345678",
+      "balance": 145.5,
+      "totalEarnings": 320,
+      "todayEarnings": 45,
+      "lastEarningsDate": "2026-09-23",
+      "referralEarnings": 60,
+      "referralCode": "TK9981",
+      "referredBy": null,
+      "completedTasks": 14,
+      "status": "active",
+      "lastActivity": "2026-09-23T07:56:12.758Z",
+      "createdAt": "2026-09-18T07:56:12.758Z",
+      "updatedAt": "2026-09-23T07:56:12.758Z"
+    },
+    {
+      "id": "usr_927b9eb8e106",
+      "username": "taka_user324",
+      "passwordHash": "0c4f5aa3d8da2cd3d9dc7e24332ec9e7059a55a876e22ce39a504a7b214d508ef8ce53388ec2b838f60cd60f64c499ebaa17efc78e819f0b5a48c539f047afdc",
+      "salt": "2f4898c4f1a7c190e37f2b24187cbbbc",
+      "balance": 55,
+      "totalEarnings": 55,
+      "todayEarnings": 25,
+      "lastEarningsDate": "2026-09-23",
+      "referralEarnings": 0,
+      "referralCode": "TK6407",
+      "referredBy": null,
+      "completedTasks": 3,
+      "status": "active",
+      "lastActivity": "2026-09-23T07:58:35.186Z",
+      "createdAt": "2026-09-23T07:58:35.186Z",
+      "updatedAt": "2026-09-23T07:58:35.186Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": "adm_01",
+      "username": "srnoman2407",
+      "passwordHash": "481fcdb797f075ee9c6f49c02bc5efb3a4a358661021187905f386a17c8b93b9d47831f931bae4a4cbf38f788cf9d3b30aa6481128d8334a3a6e8989334ffc64",
+      "salt": "6d40047a1c6c8fbf56ec25d0a2e87ec3",
+      "role": "superadmin",
+      "createdAt": "2026-09-23T07:56:12.758Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_01",
+      "title": "Complete Sponsored Website Visit",
+      "description": "Visit our premium partner website, explore the home services page, and wait for verification timer to earn instant BDT.",
+      "reward": 5,
+      "timerSeconds": 20,
+      "dailyLimit": 10,
+      "active": true,
+      "totalAttempts": 142,
+      "completedTasks": 128,
+      "rewardsDistributed": 640,
+      "adText": "Exclusive 50% discount on tech gadgets with Bkash cashback!",
+      "createdAt": "2026-09-20T07:56:12.758Z",
+      "updatedAt": "2026-09-23T07:56:12.758Z"
+    },
+    {
+      "id": "task_02",
+      "title": "Financial App Review & Survey Check",
+      "description": "Read the fintech survey checklist and review the newest mobile banking security guidelines.",
+      "reward": 8.5,
+      "timerSeconds": 30,
+      "dailyLimit": 5,
+      "active": true,
+      "totalAttempts": 95,
+      "completedTasks": 89,
+      "rewardsDistributed": 756.5,
+      "adText": "Open a high-yield digital deposit account in 2 minutes.",
+      "createdAt": "2026-09-21T07:56:12.758Z",
+      "updatedAt": "2026-09-23T07:56:12.758Z"
+    },
+    {
+      "id": "task_03",
+      "title": "Tech Gadget Feature Article Read",
+      "description": "Browse the latest smartphone releases in Bangladesh and scroll through the specs comparison table.",
+      "reward": 4,
+      "timerSeconds": 15,
+      "dailyLimit": 15,
+      "active": true,
+      "totalAttempts": 210,
+      "completedTasks": 198,
+      "rewardsDistributed": 792,
+      "adText": "Grab genuine mobile accessories at guaranteed lowest price.",
+      "createdAt": "2026-09-22T07:56:12.758Z",
+      "updatedAt": "2026-09-23T07:56:12.758Z"
+    },
+    {
+      "id": "task_04",
+      "title": "E-commerce Flash Deal Explorer",
+      "description": "Review trending lifestyle products and verify today promo voucher availability.",
+      "reward": 10,
+      "timerSeconds": 40,
+      "dailyLimit": 3,
+      "active": true,
+      "totalAttempts": 70,
+      "completedTasks": 62,
+      "rewardsDistributed": 620,
+      "adText": "Eid Special Megadeals - Free delivery all over Bangladesh.",
+      "createdAt": "2026-09-23T07:56:12.758Z",
+      "updatedAt": "2026-09-23T07:56:12.758Z"
+    }
+  ],
+  "taskSessions": [],
+  "transactions": [
+    {
+      "id": "TXN-40629",
+      "userId": "usr_927b9eb8e106",
+      "username": "taka_user324",
+      "amount": 5,
+      "type": "spin_reward",
+      "description": "Lucky Spin win: ৳5.00",
+      "status": "completed",
+      "createdAt": "2026-09-23T07:58:50.659Z"
+    },
+    {
+      "id": "TXN-90214",
+      "userId": "usr_demo_01",
+      "username": "rahman_bd",
+      "amount": 45,
+      "type": "task_earning",
+      "description": "Completed 6 sponsored timer tasks",
+      "status": "completed",
+      "createdAt": "2026-09-23T05:56:12.758Z"
+    },
+    {
+      "id": "TXN-88120",
+      "userId": "usr_demo_01",
+      "username": "rahman_bd",
+      "amount": 15,
+      "type": "referral_earning",
+      "description": "Referral commission from new active member",
+      "status": "completed",
+      "createdAt": "2026-09-22T19:56:12.758Z"
+    },
+    {
+      "id": "TXN-79401",
+      "userId": "usr_demo_01",
+      "username": "rahman_bd",
+      "amount": 100,
+      "type": "withdrawal",
+      "description": "bKash cashout payout completed",
+      "status": "completed",
+      "createdAt": "2026-09-21T07:56:12.759Z"
+    },
+    {
+      "id": "TXN-48926",
+      "userId": "usr_927b9eb8e106",
+      "username": "taka_user324",
+      "amount": 50,
+      "type": "task_earning",
+      "description": "Welcome Starter Balance Credited",
+      "status": "completed",
+      "createdAt": "2026-09-23T07:58:35.186Z"
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "WTH-79401",
+      "userId": "usr_demo_01",
+      "username": "rahman_bd",
+      "method": "bKash",
+      "accountNumber": "01712345678",
+      "amount": 100,
+      "fee": 2,
+      "netAmount": 98,
+      "status": "completed",
+      "adminNote": "TrxID: 9JL34K90 sent via bKash Merchant",
+      "createdAt": "2026-09-21T07:56:12.759Z",
+      "updatedAt": "2026-09-21T08:26:12.759Z"
+    }
+  ],
+  "videoAds": [
+    {
+      "id": "vid_01",
+      "title": "Digital Banking Security Spotlight",
+      "brand": "Nexus Pay & Bkash Security",
+      "reward": 3.5,
+      "requiredDurationSeconds": 15,
+      "dailyLimit": 5,
+      "active": true,
+      "viewsCount": 164,
+      "createdAt": "2026-09-23T07:56:12.759Z"
+    },
+    {
+      "id": "vid_02",
+      "title": "Global Freelance & Tech Careers",
+      "brand": "Future Skills BD",
+      "reward": 5,
+      "requiredDurationSeconds": 20,
+      "dailyLimit": 4,
+      "active": true,
+      "viewsCount": 120,
+      "createdAt": "2026-09-23T07:56:12.759Z"
+    }
+  ],
+  "videoSessions": [],
+  "spins": [
+    {
+      "id": "spn_0a0853bd0f14",
+      "userId": "usr_927b9eb8e106",
+      "reward": 5,
+      "date": "2026-09-23",
+      "createdAt": "2026-09-23T07:58:50.659Z"
+    }
+  ],
+  "spinSegments": [
+    {
+      "id": 0,
+      "reward": 0,
+      "label": "৳0 (Try Again)",
+      "weight": 20,
+      "color": "#64748B"
+    },
+    {
+      "id": 1,
+      "reward": 1,
+      "label": "৳1.00",
+      "weight": 35,
+      "color": "#0EA5E9"
+    },
+    {
+      "id": 2,
+      "reward": 2,
+      "label": "৳2.00",
+      "weight": 20,
+      "color": "#10B981"
+    },
+    {
+      "id": 3,
+      "reward": 5,
+      "label": "৳5.00",
+      "weight": 15,
+      "color": "#F59E0B"
+    },
+    {
+      "id": 4,
+      "reward": 10,
+      "label": "৳10.00 Jack!",
+      "weight": 8,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": 5,
+      "reward": 20,
+      "label": "৳20.00 Mega!",
+      "weight": 2,
+      "color": "#EF4444"
+    }
+  ],
+  "advertisements": [
+    {
+      "id": "ad_pre_task",
+      "name": "Adsterra 10s Task Sponsor",
+      "type": "task_pre_ad",
+      "code": "<div class=\"p-4 bg-emerald-950/40 border border-emerald-500/30 rounded-xl text-center\"><p class=\"text-xs uppercase tracking-wider text-emerald-400 font-semibold mb-1\">Sponsored Advertisement</p><h4 class=\"text-sm font-bold text-white\">Boost Your Tech Skills with Certified Bootcamps</h4><p class=\"text-xs text-slate-300 mt-1\">Get up to 70% scholarship for computer science and AI courses.</p></div>",
+      "status": "active",
+      "placement": "Pre-Task Modal (Mandatory 10s Countdown)",
+      "priority": 1,
+      "bannerTitle": "Top Rated Tech Courses in Bangladesh",
+      "bannerSubtitle": "Instant enrollment with 0% interest EMI on all cards",
+      "targetUrl": "https://example.com/sponsor-deals",
+      "createdAt": "2026-09-23T07:56:12.759Z",
+      "updatedAt": "2026-09-23T07:56:12.759Z"
+    },
+    {
+      "id": "ad_social_bar",
+      "name": "Social Bar Reward Banner",
+      "type": "social_bar",
+      "code": "<div class=\"p-2.5 bg-gradient-to-r from-emerald-600 to-teal-700 text-white rounded-lg flex items-center justify-between text-xs font-medium\"><span class=\"flex items-center gap-2\">🔥 Weekend Mega Cash Bonanza active!</span><span class=\"underline\">View Offers</span></div>",
+      "status": "active",
+      "placement": "User Dashboard Top Bar",
+      "priority": 1,
+      "bannerTitle": "Weekend Bonanza",
+      "targetUrl": "https://example.com/bonanza",
+      "createdAt": "2026-09-23T07:56:12.759Z",
+      "updatedAt": "2026-09-23T07:56:12.759Z"
+    },
+    {
+      "id": "ad_video_sponsor",
+      "name": "Video Ad Interstitial",
+      "type": "video_ad",
+      "code": "<div class=\"w-full aspect-video bg-slate-900 rounded-lg flex items-center justify-center text-slate-300 text-sm\">Sponsored Video Commercial Stream</div>",
+      "status": "active",
+      "placement": "Video Ads Section",
+      "priority": 1,
+      "createdAt": "2026-09-23T07:56:12.759Z",
+      "updatedAt": "2026-09-23T07:56:12.759Z"
+    }
+  ],
+  "systemSettings": {
+    "appName": "TakaRewards",
+    "currencySymbol": "৳",
+    "currencyCode": "BDT",
+    "minWithdrawal": 50,
+    "maxWithdrawal": 10000,
+    "withdrawalFeePercent": 2,
+    "dailyTaskLimit": 20,
+    "dailyVideoLimit": 10,
+    "dailySpinLimit": 5,
+    "referralCommissionType": "fixed",
+    "referralCommissionValue": 10,
+    "maintenanceMode": false,
+    "userRegistrationEnabled": true,
+    "supportedMethods": [
+      "bKash",
+      "Nagad",
+      "USDT"
+    ]
+  },
+  "adminLogs": [
+    {
+      "id": "log_01",
+      "adminUsername": "srnoman2407",
+      "action": "SYSTEM_INITIALIZED",
+      "target": "System Settings",
+      "details": "Initial system boot and security policies set.",
+      "createdAt": "2026-09-23T07:56:12.759Z"
+    },
+    {
+      "id": "log_c688fe7a",
+      "adminUsername": "srnoman2407",
+      "action": "ADMIN_LOGIN",
+      "target": "Auth",
+      "details": "Admin authenticated successfully into control panel",
+      "createdAt": "2026-09-23T08:32:02.504Z"
+    }
+  ]
+}

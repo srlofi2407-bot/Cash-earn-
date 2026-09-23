@@ -1,0 +1,6 @@
+{
+  "name": "TakaRewards - Bangladesh Earning & Reward Platform",
+  "description": "Premier micro-task and reward earning platform in Bangladesh. Complete timer tasks, watch ads, spin & win BDT rewards with instant bKash, Nagad, and USDT withdrawals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
